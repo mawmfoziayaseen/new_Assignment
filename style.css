@@ -1,5 +1,7 @@
 *{margin: 0px;
  padding: 0%;
+ font-family: Arial, Helvetica, sans-serif;
+ border: border-box;
 }
 .header{
     height: 100px;
@@ -25,8 +27,15 @@
 .nav{
     height: 40px;
     width: 100%;
+    color: white;
     margin: 0px;
     padding: 0px;
     background-color: #1d187b;
     display: inline-block;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid lightblue;
 }
