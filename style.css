@@ -29,10 +29,12 @@
     width: 100%;
     /* color: white; */
     margin: 0px;
-    padding: 0px;
+    /* padding left:24px; */
     background-color: #1d187b;
     display: flex;
     align-items: center;
+    float: right;
+    
 }
 .border{
     border: 2px solid transparent;
@@ -44,14 +46,52 @@ ul ,li{
     text-decoration: none;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: inherit;
 }
 select{
     background-color:#1d187b;
     color: white;
 }
 a{
-    margin-left: 30px;
+    margin-left: 45px;
     word-spacing: 10px;
+}
+button{
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .3s ease;
+    float:right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.main{
+    width: 100%;
+    height: fit-con;
+}
+.pic1{
+    height: 380px;
+    width: 50%;
+    background: url(./bvlogic\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+}
+.content{ 
+    width: 50%;
+    height: 400px;
+    display: inline-block;
+    margin-bottom: 27px;
+    padding-bottom: 200px;
+    align-items: flex-start;
+    
+
+}
+h1{
+    font-weight: lighter;
+}
+p{
+    align-items: end;
+    position: absolute;
 }
