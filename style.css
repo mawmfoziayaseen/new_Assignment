@@ -27,15 +27,31 @@
 .nav{
     height: 40px;
     width: 100%;
-    color: white;
+    /* color: white; */
     margin: 0px;
     padding: 0px;
     background-color: #1d187b;
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 .border{
     border: 2px solid transparent;
 }
 .border:hover{
     border: 2px solid lightblue;
+}
+ul ,li{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+select{
+    background-color:#1d187b;
+    color: white;
+}
+a{
+    margin-left: 30px;
+    word-spacing: 10px;
 }
