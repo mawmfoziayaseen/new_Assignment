@@ -68,7 +68,8 @@ button{
 }
 .main{
     width: 100%;
-    height: fit-con;
+    height:400px;
+    display: flex;
 }
 .pic1{
     height: 380px;
@@ -81,17 +82,30 @@ button{
 .content{ 
     width: 50%;
     height: 400px;
-    display: inline-block;
-    margin-bottom: 27px;
-    padding-bottom: 200px;
+    text-align: start;
     align-items: flex-start;
-    
 
 }
 h1{
+    font-size: 50px;
     font-weight: lighter;
+    margin-top: 70px;
+    margin-left: 1px;
+    
+    line-height: 1.2;
 }
 p{
+    line-height: 40px;
     align-items: end;
     position: absolute;
+    text-align: left;
+}
+h2{
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: center;
+}
+#para{
+
+    margin-left: 500px;
 }
