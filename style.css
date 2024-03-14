@@ -11,4 +11,22 @@
 }
 .logo{
     height: 100px;
+    display: inline-block;
+}
+.phone{
+    height: 100px;
+    float: right;
+    padding-right: 200px;
+    font-size: 25px;
+    line-height: 100px;
+    color: rgb(59, 59, 153);
+    display: inline-block;
+}
+.nav{
+    height: 40px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #1d187b;
+    display: inline-block;
 }
