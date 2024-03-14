@@ -96,7 +96,7 @@ h1{
 }
 p{
     line-height: 40px;
-    align-items: end;
+    align-items: center;
     position: absolute;
     text-align: left;
 }
@@ -108,4 +108,18 @@ h2{
 #para{
 
     margin-left: 500px;
+}
+.about{
+    height: 400px;
+    width: 90%;
+    display: flex;
+    list-style: 10px;
+    margin: 0px 0px 16px;
+}
+h3{
+    font-size: xx-large;
+    text-align: center;
+}
+p{
+    float: right;
 }
