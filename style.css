@@ -124,3 +124,8 @@ p{
     float: right;
     margin-left: 90px;
 }
+.box{
+    height: 300px;
+    width: 98%;
+    display: flex;
+}
